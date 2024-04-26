@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.innoveo.project.services</groupId>
+    <artifactId>project-services</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+
+    <packaging>pom</packaging>
+
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <spring-boot.version>3.2.2</spring-boot.version>
+        <guava.version>28.2-jre</guava.version>
+        <slf4j.version>1.7.36</slf4j.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <modules>
+        <module>kemper-territory-services</module>
+    </modules>
+
+    <distributionManagement>
+        <repository>
+            <id>innoveo-releases</id>
+            <name>Innoveo Releases Repository</name>
+            <url>http://maven.dev.innoveo.cloud:8081/nexus/content/repositories/libs-releases-local/</url>
+        </repository>
+        <snapshotRepository>
+            <id>innoveo-snapshots</id>
+            <name>Innoveo Snapshots Repository</name>
+            <url>http://maven.dev.innoveo.cloud:8081/nexus/content/repositories/libs-snapshots-local/</url>
+            <uniqueVersion>false</uniqueVersion>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+
+</project>

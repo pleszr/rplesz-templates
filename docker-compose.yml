@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  cps-kemper-api2query:
+    container_name: sampleContainerName
+    build:
+      context: .
+      dockerfile: .Dockerfile
+    environment:
+      - SAMPLE_ENV_VAR=sampleValue
+    ports:
+      - '8091:8091'

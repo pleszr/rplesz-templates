@@ -1,0 +1,14 @@
+<settings>
+    <servers>
+        <server>
+            <id>innoveo-releases</id>
+            <username>${maven.username}</username>
+            <password>${maven.password}</password>
+        </server>
+        <server>
+            <id>innoveo-snapshots</id>
+            <username>${maven.username}</username>
+            <password>${maven.password}</password>
+        </server>
+    </servers>
+</settings>
