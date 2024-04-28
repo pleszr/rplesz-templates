@@ -1,0 +1,407 @@
+{
+  "_id": {
+    "$binary": {
+      "base64": "Ee7aNilfOvCwv4uPqxPYRQ==",
+      "subType": "04"
+    }
+  },
+  "_version": 3,
+  "_textId": "Employee",
+  "_modelType": "PRODUCT",
+  "_definition": {
+    "$binary": {
+      "base64": "p7uEXAkPRi2UWARvCZu53Q==",
+      "subType": "04"
+    }
+  },
+  "_definitionVersion": {
+    "$numberLong": "1709539247564"
+  },
+  "_created": {
+    "$date": "2024-03-04T14:47:45.226Z"
+  },
+  "_modified": {
+    "$date": "2024-03-05T09:42:39.073Z"
+  },
+  "_userCreated": "InnoveoBatchUser",
+  "_userModified": "InnoveoBatchUser",
+  "@ReadyForFullTextIndex": "True",
+  "ChampToChampServiceTrigger": "",
+  "EmployeeAuditTrailRef": "",
+  "EmployeeHistoryRef": "",
+  "EmployeeID": "111055",
+  "EmployeeTransRef": "",
+  "OnboardingRef": "",
+  "PaymentCalculationRef": "",
+  "Uuid": "11eeda36-295f-3af0-b0bf-8b8fab13d845",
+  "JobClassService": {
+    "PositionHistoryService": "",
+    "PreviousJobClass": {
+      "PreviousPositionEndDate": "",
+      "PreviousPositionRef": "",
+      "PreviousPositionStartDate": "",
+      "PreviousPositionTitle": "",
+      "PreviousTerritory": {
+        "_id": {
+          "$binary": {
+            "base64": "Ee7aNilfOxqwv4uPqxPYRQ==",
+            "subType": "04"
+          }
+        }
+      },
+      "_id": {
+        "$binary": {
+          "base64": "Ee7aNilfOxCwv4uPqxPYRQ==",
+          "subType": "04"
+        }
+      }
+    },
+    "CurrentJobClass": {
+      "CurrentPositionEndDate": "",
+      "CurrentPositionRef": "",
+      "CurrentPositionStartDate": "",
+      "CurrentPositionTitle": "",
+      "CurrentTransType": "",
+      "EffectiveDate": "",
+      "CurrentTerritory": {
+        "TerritoryID": "",
+        "TerritoryNumber": "",
+        "TerritoryRef": "",
+        "_id": {
+          "$binary": {
+            "base64": "Ee7aNilfYjqwv4uPqxPYRQ==",
+            "subType": "04"
+          }
+        }
+      },
+      "_id": {
+        "$binary": {
+          "base64": "Ee7aNilfYiywv4uPqxPYRQ==",
+          "subType": "04"
+        }
+      }
+    },
+    "JobClassHistory": [
+      {
+        "PositionEndDate": "",
+        "PositionRef": "",
+        "PositionStartDate": "",
+        "_id": {
+          "$binary": {
+            "base64": "Ee7aNilfOwiwv4uPqxPYRQ==",
+            "subType": "04"
+          }
+        },
+        "_index": 1
+      }
+    ],
+    "_id": {
+      "$binary": {
+        "base64": "Ee7aNilfOwSwv4uPqxPYRQ==",
+        "subType": "04"
+      }
+    }
+  },
+  "PaymentService": {
+    "BillingRef": "",
+    "PaymentCalculation": {
+      "LastTriggered": "",
+      "LastCalculated": "",
+      "CreateHistoryExcel": "",
+      "HistoryTrigger": "",
+      "IsPaymentCreated": "No",
+      "MissedPaymentCreate": "",
+      "PaymentCalculationCreateService": "",
+      "PaymentCalculationDeciderExcel": "",
+      "PaymentCalculationForEvent": "",
+      "PaymentThurs": "",
+      "PaymentTriggerRef": "",
+      "RegularCopyCreate": "",
+      "TriggerDate": {
+        "$date": "2024-03-04T05:00:00.000Z"
+      },
+      "TriggerPaymentCalculation": "",
+      "PaymentWeeks": {
+        "CheckPaymentDeciderCalculation": "",
+        "DayCounter": 0,
+        "MissedPaymentFlag": "",
+        "PayDate": "",
+        "PayWeekNo": "",
+        "PayWeekNoCalculationExcel": "",
+        "RegularCycleFlag": "",
+        "_id": {
+          "$binary": {
+            "base64": "Ee7aNilfYmSwv4uPqxPYRQ==",
+            "subType": "04"
+          }
+        }
+      },
+      "_id": {
+        "$binary": {
+          "base64": "Ee7aNilfYkawv4uPqxPYRQ==",
+          "subType": "04"
+        }
+      }
+    },
+    "LatestPayment": {
+      "PaymentRef": "",
+      "_id": {
+        "$binary": {
+          "base64": "Ee7aNilfiYSwv4uPqxPYRQ==",
+          "subType": "04"
+        }
+      }
+    },
+    "PaymentHistory": [
+      {
+        "Amount": "",
+        "EmployeeID": "",
+        "EmployeeType": "",
+        "PayDate": "",
+        "PaymentCalculationRef": "",
+        "ProcessDate": "",
+        "_id": {
+          "$binary": {
+            "base64": "Ee7aNilfiYiwv4uPqxPYRQ==",
+            "subType": "04"
+          }
+        },
+        "_index": 1
+      }
+    ],
+    "_id": {
+      "$binary": {
+        "base64": "Ee7aNilfYkKwv4uPqxPYRQ==",
+        "subType": "04"
+      }
+    }
+  },
+  "EmployeeInformation": {
+    "SSN": "420378683",
+    "FirstName": "CARRIE",
+    "MiddleInitial": "L",
+    "LastName": "YOUNG",
+    "WorkdayEmployeeid": "1030330",
+    "FieldServiceDate": {
+      "$date": "2023-12-04T05:00:00.000Z"
+    },
+    "CreatedBy": "LIFCPCB",
+    "CreatedDate": {
+      "$date": "2023-12-11T05:00:00.000Z"
+    },
+    "LastUpdatedBy": "LIFPAY",
+    "LastUpdatedDate": {
+      "$date": "2024-02-10T05:00:00.000Z"
+    },
+    "NPN": "",
+    "TerminationDate": "",
+    "PayrollEmpNumber": "9763D",
+    "Status": "",
+    "DistrictNumber": "",
+    "EmployeeStatus": "",
+    "ExperienceFlag": "N",
+    "CompanyStartDate": {
+      "$date": "2023-12-04T05:00:00.000Z"
+    },
+    "Designation": "",
+    "AddressLine1": "441 MARTIN DR",
+    "AddressLine2": "",
+    "AgencyNumber": "",
+    "AreaCode": "251",
+    "CitizenFlag": "Y",
+    "City": "LEROY",
+    "CostCenter": "CC_663337",
+    "DESIG": "",
+    "DOB": {
+      "$date": "1991-02-26T05:00:00.000Z"
+    },
+    "Email": "",
+    "EmployeeFullName": "",
+    "EmployeeTransRef": "",
+    "EmtpCyborgStatus": "1",
+    "FullName": "",
+    "GeacCompanyCode": "",
+    "Gender": "F",
+    "HrmsEmpEmail": "cyoung5@kemper.com",
+    "HrmsEmpno": "1030330",
+    "HrmsNetworkId": "103033",
+    "ID": 111055,
+    "JbclCyborgCode": "04SW",
+    "LegacyCostCenter": "1030330",
+    "Location": "LOC_LS_AL_104",
+    "MaritalStatus": "1",
+    "OnboardingRef": "",
+    "PhoneNumber": "7695280",
+    "RaceCode": "1",
+    "SOCOidCurrent": "303",
+    "SexCode": "",
+    "StaffNumber": "",
+    "State": "AL",
+    "UnionStartDate": "",
+    "Unionid": "",
+    "WorkdayCandidateid": "",
+    "Zip": "36548",
+    "_id": {
+      "$binary": {
+        "base64": "Ee7aNilfsKawv4uPqxPYRQ==",
+        "subType": "04"
+      }
+    }
+  },
+  "EmployeeTerritory": {
+    "CreatedBy": "LIFCPCB",
+    "CreatedDate": {
+      "$date": "2023-12-11T05:00:00.000Z"
+    },
+    "DateAssigned": "2023.12.11",
+    "District": "811",
+    "EmployeeId": "",
+    "EndDate": "",
+    "LastUpdateDate": "",
+    "LastUpdatedBy": "",
+    "Occupany": "",
+    "OccupanyExcel": "",
+    "TerrEmpUpdateHttpInvoker": "",
+    "TerritoryRef": "11eed9a5-7b3d-e8ce-923f-413c7f2a80c0;11eed9a5-7b3d-e8ce-923f-413c7f2a80c0",
+    "Territoryid": "13715",
+    "TriggerRoleHistoryCreation": "Yes",
+    "_id": {
+      "$binary": {
+        "base64": "Ee7aNilf1ySwv4uPqxPYRQ==",
+        "subType": "04"
+      }
+    }
+  },
+  "EmployeeJobClass": {
+    "AssignedDate": {
+      "$date": "2023-12-11T05:00:00.000Z"
+    },
+    "CreatedBy": "LIFCPCB",
+    "CreatedDate": {
+      "$date": "2023-12-11T05:00:00.000Z"
+    },
+    "EndDate": "",
+    "JobClass": "Agent",
+    "JobClassid": "50",
+    "LastUpdatedBy": "",
+    "LastUpdatedDate": "",
+    "ManagementServiceDate": "",
+    "SocoID": "303",
+    "_id": {
+      "$binary": {
+        "base64": "Ee7aNilf/lKwv4uPqxPYRQ==",
+        "subType": "04"
+      }
+    }
+  },
+  "EmployeeStatus": {
+    "CreatedBy": "LIFCPCB",
+    "CreatedDate": {
+      "$date": "2023-12-11T05:00:00.000Z"
+    },
+    "EffectiveDate": "2023.12.11",
+    "EligibileRehire": "",
+    "EmployeeId": "",
+    "EmtpStatus": "01",
+    "EndDate": "",
+    "GettingUuidHttpInvoker": "",
+    "LastUpdatedBy": "",
+    "LastUpdatedDate": "",
+    "RequestType": "",
+    "TMREid": "",
+    "TerminationRequestHttpInvoker": "",
+    "TerminationtransHttpInvoker": "",
+    "UpdateTerminateHttpInvoker": "",
+    "_id": {
+      "$binary": {
+        "base64": "Ee7aNilf/miwv4uPqxPYRQ==",
+        "subType": "04"
+      }
+    }
+  },
+  "EmployeeCommission": {
+    "EmployeeCommissionContract": [
+      {
+        "ChampToCsEmployeeCommissionContractHttpInvoker": "",
+        "ContractEndDate": "",
+        "ContractStartDate": "",
+        "ContractTypeDescription": "",
+        "ContractTypeid": "",
+        "CreatedBy": "",
+        "CreatedDate": "",
+        "ExtractToCS": "",
+        "LastUpdatedBy": "",
+        "LastUpdatedDate": "",
+        "SocoID": "",
+        "UpdateChampToCSEmployeeCommisioncontractHttpInvoker": "",
+        "_id": {
+          "$binary": {
+            "base64": "Ee7aNilgJZqwv4uPqxPYRQ==",
+            "subType": "04"
+          }
+        },
+        "_index": 1
+      }
+    ],
+    "_id": {
+      "$binary": {
+        "base64": "Ee7aNilgJZiwv4uPqxPYRQ==",
+        "subType": "04"
+      }
+    }
+  },
+  "LicenseAppointments": {
+    "DMRef": "",
+    "DMUuid": "",
+    "DistrictRef": "",
+    "EmailTemplateRef": "",
+    "ExpiryDate": "",
+    "GetLicenseDetailsHttpInvoker": "",
+    "LicenseAppointmentsBackRef": "",
+    "LicenseDetailsService": "",
+    "LicenseExpiryDateChangeExcel": "",
+    "LicenseExpiryDates": "12/31/1899|12/31/1899|12/31/1899|12/31/1899|12/31/1899|12/31/1899|12/31/1899|12/31/1899|12/31/1899|12/31/1899|12/31/1899|12/31/1899|12/31/1899|12/31/1899|12/31/1899|12/31/1899|12/31/1899|12/31/1899|12/31/1899|12/31/1899",
+    "StoreDMRefExcel": "",
+    "TriggerDateChangeExcel": "",
+    "LicenseExpiryEmail": {
+      "BodyLine11": "",
+      "BodyLine12": "",
+      "BodyLine13": "",
+      "BodyLine2": "",
+      "ClosingLine": "",
+      "CopiedTo": "",
+      "DMExpiryEmail": "",
+      "NoticeType": "",
+      "Salutation": "",
+      "SendTo": "",
+      "SignatureLine1": "",
+      "SignatureLine2": "",
+      "Subject": "",
+      "_id": {
+        "$binary": {
+          "base64": "Ee7aNilgJc6wv4uPqxPYRQ==",
+          "subType": "04"
+        }
+      }
+    },
+    "_id": {
+      "$binary": {
+        "base64": "Ee7aNilgJbSwv4uPqxPYRQ==",
+        "subType": "04"
+      }
+    }
+  },
+  "WorkdayResponse": {
+    "JobProfileCode": "9902",
+    "PositionID": "",
+    "RequestReasonCode": "",
+    "SupervisorBackResponseHttpInvoker": "",
+    "SupervisoryOrganizationID": "",
+    "_id": {
+      "$binary": {
+        "base64": "Ee7aNilgTPqwv4uPqxPYRQ==",
+        "subType": "04"
+      }
+    }
+  }
+}
